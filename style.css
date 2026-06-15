@@ -2002,3 +2002,296 @@ body{
     background-repeat:repeat;
 }
 
+.instagram-btn{
+    display:inline-block;
+    padding:10px 18px;
+    background:#E1306C;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.instagram-btn:hover{
+    transform:scale(1.05);
+}
+
+.instagram-seccion{
+
+    text-align:center;
+
+    padding:30px;
+
+    margin:30px auto;
+
+    max-width:800px;
+
+    background:rgba(255,255,255,0.9);
+
+    border-radius:15px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+.instagram-seccion h2{
+
+    color:#c00000;
+
+    margin-bottom:10px;
+
+}
+
+.instagram-seccion p{
+
+    margin-bottom:20px;
+
+}
+
+.botones-estadisticas{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin:30px 0;
+
+}
+
+.botones-estadisticas button{
+
+    background:#c00000;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.botones-estadisticas button:hover{
+
+    background:#8b0000;
+
+    transform:translateY(-3px);
+
+}
+
+.pagina-seccion{
+
+    display:none;
+
+    max-width:1000px;
+
+    margin:30px auto;
+
+    background:rgba(255,255,255,0.95);
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+.pagina-seccion.activo{
+
+    display:block;
+
+}
+
+.pagina-seccion h1{
+
+    text-align:center;
+
+    color:#c00000;
+
+    margin-bottom:25px;
+
+}
+
+.dt{
+
+    margin-bottom:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.dt summary{
+
+    padding:15px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    background:#f5f5f5;
+
+}
+
+.dt p{
+
+    padding:0 15px;
+
+}
+
+.boton-resumen{
+
+    display:inline-block;
+
+    margin:15px;
+
+    padding:10px 18px;
+
+    background:#c00000;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:0.3s;
+
+}
+
+.boton-resumen:hover{
+
+    background:#8b0000;
+
+}
+
+
+.botones-estadisticas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.botones-estadisticas button {
+    background: #c00000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botones-estadisticas button:hover {
+    background: #900000;
+    transform: translateY(-3px);
+}
+
+.pagina-seccion {
+    display: none;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.pagina-seccion.activo {
+    display: block;
+}
+
+.pagina-seccion h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #c00000;
+}
+
+.dt {
+    background: rgba(255,255,255,0.95);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.dt summary {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #c00000;
+    color: white;
+}
+
+.dt p {
+    padding: 5px 15px;
+}
+
+.boton-resumen {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 18px;
+    background: #c00000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.boton-resumen:hover {
+    background: #900000;
+    transform: scale(1.05);
+}
+
+.apoyo-web{
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    background: rgba(255,255,255,0.92);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+
+.boton-donar{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#009ee3;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.boton-donar:hover{
+    transform:scale(1.05);
+}
+
+.alias-mp{
+    margin-top:15px;
+    font-weight:bold;
+    color:#c00000;
+}
